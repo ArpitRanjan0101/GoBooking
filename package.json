@@ -1,0 +1,34 @@
+{
+  "name": "gobooking-backend",
+  "version": "1.0.0",
+  "description": "Backend foundation for the GoBooking SaaS platform.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --legacy-watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArpitRanjan0101/GoBooking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ArpitRanjan0101/GoBooking/issues"
+  },
+  "homepage": "https://github.com/ArpitRanjan0101/GoBooking#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0",
+    "redis": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
