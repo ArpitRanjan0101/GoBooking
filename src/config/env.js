@@ -20,6 +20,8 @@ const env = {
   OTP_MAX_ATTEMPTS: Number(process.env.OTP_MAX_ATTEMPTS) || 5,
 
   RESET_PASSWORD_TTL_SECONDS: Number(process.env.RESET_PASSWORD_TTL_SECONDS) || 900,
+
+  MAX_UPLOAD_SIZE_BYTES: (Number(process.env.MAX_UPLOAD_SIZE_MB) || 5) * 1024 * 1024,
 };
 
 if (env.NODE_ENV === 'production') {
